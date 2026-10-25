@@ -4,23 +4,23 @@ import { rilis } from "@/lib/rilis";
 import { aset, situs } from "@/lib/situs";
 
 export const metadata: Metadata = {
-  title: "Unduh APK",
+  title: "Akses awal (beta)",
   description:
-    "Unduh RupiahRapi untuk Android (file APK) sebelum aplikasinya tayang di Google Play.",
+    "Coba RupiahRapi lebih dulu: unduh versi akses awal (beta) untuk Android sebelum tayang di Google Play.",
 };
 
 export default function UnduhPage() {
   return (
     <div className="wrap page prose">
-      <h1>Unduh RupiahRapi untuk Android</h1>
+      <h1>RupiahRapi akses awal (beta)</h1>
       <p>
-        RupiahRapi belum tayang di Google Play. Sambil menunggu, kamu bisa
-        memasangnya langsung dari file APK di bawah ini. Gratis, tanpa iklan,
-        dan tanpa akun.
+        RupiahRapi segera hadir di Google Play. Sambil menunggu, kamu bisa
+        mencoba versi <strong>akses awal (beta)</strong> untuk Android dari file
+        APK di bawah ini. Gratis, tanpa iklan, dan tanpa akun.
       </p>
 
       <article>
-        <h2 style={{ marginTop: 0 }}>RupiahRapi {rilis.versi}</h2>
+        <h2 style={{ marginTop: 0 }}>RupiahRapi {rilis.versi} · beta</h2>
         <p className="meta">
           {rilis.tanggal} · {rilis.ukuran} · {rilis.minimumAndroid} ke atas
         </p>
@@ -30,7 +30,7 @@ export default function UnduhPage() {
           download
           type="application/vnd.android.package-archive"
         >
-          ⬇ Unduh APK
+          ⬇ Unduh akses awal (beta)
         </a>
         <p className="muted" style={{ marginTop: 16, marginBottom: 0 }}>
           Untuk HP Android 64-bit (hampir semua HP sejak 2017). Belum bisa
@@ -53,7 +53,7 @@ export default function UnduhPage() {
       <h2>Perlu diketahui</h2>
       <ul>
         <li>
-          Ini versi awal untuk dicoba. Kalau menemukan masalah, kabari kami di{" "}
+          Ini versi beta: fitur sudah lengkap, tapi mungkin masih ada yang perlu dirapikan. Kalau menemukan masalah, kabari kami di{" "}
           <a href={`mailto:${situs.email}`}>{situs.email}</a>.
         </li>
         <li>

@@ -52,9 +52,14 @@ export default function BerandaPage() {
               Unduh di Google Play
             </a>
           ) : (
-            <Link className="btn btn-accent" href="/unduh">
-              Unduh APK untuk Android
-            </Link>
+            <>
+              <span className="btn btn-accent" aria-disabled="true">
+                Segera di Google Play
+              </span>
+              <Link className="btn" href="/unduh">
+                Unduh akses awal (beta)
+              </Link>
+            </>
           )}
         </div>
       </section>

@@ -1,4 +1,4 @@
-/** APK yang bisa diunduh langsung dari situs (sebelum tayang di Google Play). */
+/** APK akses awal (beta), diunduh langsung dari situs sebelum tayang di Google Play. */
 export const rilis = {
   versi: "1.0.0",
   tanggal: "25 Oktober 2026",
