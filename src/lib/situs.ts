@@ -1,0 +1,17 @@
+/** Data situs yang dipakai di banyak halaman. */
+export const situs = {
+  nama: "RupiahRapi",
+  slogan: "Gaji, tabungan, dan tagihan rapi di satu aplikasi",
+  email: "rupiahrapi.app@gmail.com",
+  /** Diisi setelah aplikasi tayang di Google Play. */
+  playStore: null as string | null,
+  /** Halaman Trakteer (diisi setelah akun dibuat). */
+  trakteer: null as string | null,
+};
+
+/** Awalan alamat untuk file di folder public/ (next/link menambah sendiri). */
+export const basePath = process.env.BASE_PATH ?? "";
+
+export function aset(path: string): string {
+  return `${basePath}${path}`;
+}
