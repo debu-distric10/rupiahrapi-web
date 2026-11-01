@@ -1,10 +1,10 @@
 /** APK akses awal (beta), diunduh langsung dari situs sebelum tayang di Google Play. */
 export const rilis = {
-  versi: "1.0.0",
-  tanggal: "25 Oktober 2026",
-  file: "/unduh/rupiahrapi-1.0.0.apk",
+  versi: "1.0.1",
+  tanggal: "1 November 2026",
+  file: "/unduh/rupiahrapi-1.0.1.apk",
   ukuran: "39 MB",
   /** Untuk memeriksa file tidak berubah (opsional, bagi yang paham). */
-  sha256: "bb41580909b6ab8c18441722126618265676c39a52664fc663b59fd16453289b",
+  sha256: "b77d333b4f789206cfc6adcefde0215a4d2be85489877c540212ae4d6718417a",
   minimumAndroid: "Android 7.0",
 };
