@@ -56,6 +56,21 @@ export const perjalanan: Tonggak[] = [
     ],
   },
   {
+    status: "rilis",
+    tanggal: "1 November 2026",
+    judul: "Beta 1.0.3",
+    ringkas:
+      "Hasil riset kemudahan pakai: mencatat lebih cepat dan saldo yang " +
+      "sama dengan uangmu sejak hari pertama.",
+    poin: [
+      { ikon: "⚡", teks: "Catat lebih cepat: kategori favorit jadi kotak besar, akun terakhir terpilih" },
+      { ikon: "🏦", teks: "“Uangmu ada di mana?”: isi saldo tunai, bank & e-wallet sejak awal" },
+      { ikon: "🔍", teks: "Cari transaksi di semua bulan, saring per kategori & akun" },
+      { ikon: "👁️", teks: "Sembunyikan saldo di Beranda, bayar tagihan langsung dari sana" },
+      { ikon: "🧭", teks: "Menu bawah baru: Transaksi 1 ketuk, Dokumen pindah ke Keuangan" },
+    ],
+  },
+  {
     status: "rencana",
     tanggal: null,
     judul: "Tayang di Google Play",
