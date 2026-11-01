@@ -41,12 +41,12 @@ export const perjalanan: Tonggak[] = [
     ],
   },
   {
-    status: "disiapkan",
-    tanggal: null,
+    status: "rilis",
+    tanggal: "1 November 2026",
     judul: "Beta 1.0.2",
     ringkas:
-      "Lima fitur baru dari ide pengguna — sudah dibuat dan diuji, sedang " +
-      "dicoba di HP sebelum dirilis.",
+      "Lima fitur baru dari ide pengguna untuk menabung, berutang, dan " +
+      "menjaga dokumen.",
     poin: [
       { ikon: "📈", teks: "Simulasi tabungan: nabung rutin + bunga, langsung jadi target" },
       { ikon: "🐷", teks: "Nabung otomatis tiap bulan: diingatkan, cukup ketuk “Sudah”" },

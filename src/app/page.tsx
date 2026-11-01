@@ -79,7 +79,7 @@ export default function BerandaPage() {
         </div>
         <p style={{ textAlign: "center", marginTop: 24 }}>
           <Link href="/perjalanan">
-            Lihat perjalanan RupiahRapi & fitur yang sedang disiapkan →
+            Lihat perjalanan RupiahRapi & apa yang baru →
           </Link>
         </p>
       </section>
