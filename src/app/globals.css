@@ -115,6 +115,18 @@ h3 {
   color: var(--primary);
 }
 
+/* HP kecil: empat menu + logo harus muat tanpa geser ke samping. */
+@media (max-width: 440px) {
+  .brand span {
+    display: none;
+  }
+
+  .nav {
+    gap: 12px;
+    font-size: 14px;
+  }
+}
+
 /* Kaki halaman */
 .foot {
   border-top: 1px solid var(--line);

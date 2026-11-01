@@ -39,6 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
             <nav aria-label="Menu utama" className="nav">
               <Link href="/unduh">Beta</Link>
+              <Link href="/perjalanan">Perjalanan</Link>
               <Link href="/privasi">Privasi</Link>
               <Link href="/dukung">Dukung</Link>
             </nav>
@@ -48,6 +49,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="foot">
           <div className="wrap foot-inner">
             <span>© 2026 {situs.nama}</span>
+            <Link href="/perjalanan">Perjalanan</Link>
             <Link href="/privasi">Kebijakan Privasi</Link>
             <a href={`mailto:${situs.email}`}>{situs.email}</a>
           </div>

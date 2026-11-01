@@ -1,0 +1,142 @@
+.intro {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.intro h1 {
+  font-size: clamp(30px, 6vw, 44px);
+  font-weight: 800;
+  margin: 0 0 12px;
+}
+
+.intro p {
+  color: var(--muted);
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Garis waktu: garis tegak di kiri, titik per tonggak. */
+.timeline {
+  list-style: none;
+  max-width: 720px;
+  margin: 40px auto 0;
+  padding: 0;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: var(--line);
+}
+
+.item {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 24px;
+}
+
+.dot {
+  position: absolute;
+  left: 2px;
+  top: 26px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--line);
+}
+
+.rilis .dot {
+  background: var(--primary);
+}
+
+.disiapkan .dot {
+  background: var(--accent);
+}
+
+.rencana .dot {
+  background: var(--card);
+}
+
+.rencana .card {
+  border: 2px dashed var(--line);
+  background: transparent;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin-bottom: 4px;
+}
+
+.badge {
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+
+.rilis .badge {
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.disiapkan .badge {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+.rencana .badge {
+  background: var(--line);
+  color: var(--muted);
+}
+
+.date {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.item h2 {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 6px 0 4px;
+}
+
+.item p {
+  margin: 0;
+}
+
+.points {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: grid;
+  gap: 8px;
+}
+
+.points li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.points span {
+  flex: none;
+  width: 24px;
+  text-align: center;
+}
+
+.outro {
+  max-width: 720px;
+  margin: 16px auto 0;
+  text-align: center;
+}
